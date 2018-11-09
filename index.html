@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>title</title>
+    <link href="./styles/index.css" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </head>
-  <body>
-  
+  <body class="grey lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col m12">
+          <h1 class="blue-grey-text text-darken-2 center-align">Split.io</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m3"></div>
+        <div class="col m6">
+          <div class="card grey lighten-4">
+            <div class="card-content blue-grey-text text-darken-2 ">
+              <span class="card-title">Returning user? Log in below</span>
+              <input type="text" placeholder="Username or email" />
+              <input type="text" placeholder="Password" />
+            </div>
+            <div class="card-action">
+              <div class="row">
+                <div class="col m3"></div>
+                <div class="col m3"><button class="light-blue darken-2 white-text">Login</button></div>
+                <div class="col m3"><button class="light-blue darken-2 white-text">Register new user</button></div>
+                <div class="col m3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col m3"></div>
+      </div>
+    </div>
   </body>
 </html>
